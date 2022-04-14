@@ -1,0 +1,91 @@
+.roadmapContainer {
+  width: 100%;
+  height: 100%;
+  background-image: url("../../../assets/images/bg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.roadmapTitle {
+  color: var(--text-color);
+  padding: 0 0 2rem 0;
+}
+.mySwiper {
+  width: 100%;
+  height: 100%;
+}
+.swiper-slide {
+  width: 100%;
+  height: 400px;
+}
+
+.roadMapContenContainer {
+  height: 95%;
+  border-radius: 30px;
+  background-color: black;
+  border: 9px solid white;
+  cursor: grab;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.roadmapContent__title {
+  font-family: "Bebas Neue", cursive;
+  color: var(--text-color);
+  font-size: 2.5rem;
+  margin: 0;
+
+  text-align: center;
+  text-decoration: underline;
+}
+.roadmapContent_p {
+  font-family: "Bebas Neue", cursive;
+  color: var(--text-color);
+  font-size: 1.25rem;
+  margin: -25px;
+  padding: 2rem 0;
+  text-align: center;
+}
+.whitepaper {
+  font-family: "Bebas Neue", cursive;
+  color: var(--text-color);
+  font-size: 1.25rem;
+  margin: 0;
+  text-align: center;
+}
+
+.roadmapContent__tba {
+  font-family: "Bebas Neue", cursive;
+  color: var(--text-color);
+  font-size: 2.5rem;
+  margin: 0;
+  padding: 1rem 0;
+  text-align: center;
+}
+.swiper-pagination-bullets {
+  display: none;
+}
+
+.roadmapItem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0.3rem 0;
+}
+.loader {
+  width: 6.5%;
+  padding-right: 0.5rem;
+}
+.swiper-button-prev {
+  color: #ffffff;
+}
+.swiper-button-next {
+  color: #ffffff;
+}
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-size: 1.8rem;
+}

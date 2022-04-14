@@ -1,0 +1,21 @@
+.theGodsSectionContainer {
+  background-color: black;
+  color: var(--text-color);
+}
+.godSectionContentContainer {
+  width: 100%;
+  margin: 0 auto;
+  padding: 3rem 0rem;
+}
+.godSectionTitle {
+  font-size: 8rem;
+  font-family: "Bebas Neue", cursive;
+  font-weight: 400;
+  text-align: center;
+}
+.godSectionDes {
+  font-size: 2.5rem;
+  font-family: "Bellefair", serif;
+  font-weight: 300;
+  text-align: center;
+}

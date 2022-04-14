@@ -1,0 +1,130 @@
+@media screen and (max-width: 1640px) {
+  .outStory__title {
+    font-size: 6rem;
+  }
+  .outStory__text {
+    font-size: 2rem;
+  }
+  .councilImgContainer {
+    width: 15.5rem;
+    height: 15.5rem;
+  }
+}
+@media screen and (max-width: 1250px) {
+  .banner__title {
+    font-size: 20rem;
+    margin-bottom: -11rem;
+  }
+  .outStory__title {
+    font-size: 5rem;
+  }
+  .outStory__text {
+    font-size: 1.6rem;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .banner__title {
+    font-size: 18rem;
+    margin-bottom: -10rem;
+  }
+  .outStory__title {
+    font-size: 4rem;
+  }
+  .outStory__text {
+    font-size: 1.4rem;
+  }
+  .councilImgContainer {
+    width: 17rem;
+    height: 17rem;
+  }
+}
+@media screen and (max-width: 950px) {
+  .banner-img__container {
+    width: 100%;
+  }
+  .banner__bg {
+    width: 100%;
+  }
+  .outStory__img {
+    display: none;
+  }
+  .outStory__content_container {
+    justify-content: center;
+  }
+  .outStory__content {
+    width: 100%;
+    left: unset;
+    padding: 5rem 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .outStory__text {
+    width: 100%;
+    text-align: center;
+    line-height: 1.3;
+  }
+}
+@media screen and (max-width: 860px) {
+  .banner__title {
+    font-size: 16rem;
+    margin-bottom: -8rem;
+  }
+  .godSectionTitle {
+    font-size: 7rem;
+  }
+  .godSectionDes {
+    font-size: 1.8rem;
+  }
+}
+@media screen and (max-width: 780px) {
+  .banner__title {
+    font-size: 14rem;
+    margin-bottom: -7rem;
+  }
+}
+@media screen and (max-width: 680px) {
+  .banner__title {
+    font-size: 12rem;
+    margin-bottom: -6rem;
+  }
+  .godSectionTitle {
+    font-size: 5rem;
+  }
+  .godSectionDes {
+    font-size: 1.1rem;
+    line-height: 1.25;
+  }
+  .outStory__content {
+    padding: 5rem 1rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  .banner__title {
+    font-size: 10rem;
+    margin-bottom: -5.5rem;
+  }
+  .marketPlaceTitle {
+    font-size: 2.5rem !important;
+  }
+}
+@media screen and (max-width: 500px) {
+  .banner__title {
+    font-size: 8rem;
+    margin-bottom: -4.5rem;
+  }
+  .godSectionTitle {
+    font-size: 4rem;
+  }
+  .godSectionDes {
+    font-size: 1rem;
+    line-height: 1.3;
+  }
+}
+@media screen and (max-width: 400px) {
+  .banner__title {
+    font-size: 7rem;
+    margin-bottom: -4rem;
+  }
+}

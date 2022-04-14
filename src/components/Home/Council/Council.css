@@ -1,0 +1,41 @@
+.councilsContainer {
+  width: 100%;
+  height: 100%;
+  background-image: url("../../../assets/images/bg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.councilContentContainer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: grab;
+}
+.councilImgContainer {
+  width: 18rem;
+  height: 18rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  background-color: gray;
+}
+.councilImg {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.councilContent__name {
+  font-family: "Bebas Neue", cursive;
+  color: var(--text-color);
+  font-size: 1.5rem;
+  margin: 0;
+  padding: 1rem 0;
+}
+.councilContent__link {
+  color: white;
+  font-size: 2rem;
+}

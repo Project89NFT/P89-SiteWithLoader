@@ -1,0 +1,39 @@
+.outStoryContainer {
+  background-color: black;
+  width: 100%;
+  height: 100%;
+}
+.outStory__content_container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.outStory__content {
+  color: var(--text-color);
+  width: 50%;
+  position: relative;
+  left: 7%;
+  padding-top: 5rem;
+}
+.outStory__title {
+  font-size: 8rem;
+  font-family: "Bebas Neue", cursive;
+  font-weight: 500;
+}
+.outStory__text {
+  font-family: "Bellefair", serif;
+  font-size: 2.5rem;
+  width: 160%;
+  margin: 0;
+}
+.outStory__img {
+  width: 100%;
+  height: 100%;
+  flex-grow: 1;
+  display: flex;
+  justify-content: right;
+}
+.storyBg {
+  width: 100%;
+}
